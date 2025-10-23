@@ -1,0 +1,39 @@
+question,correct,wrong1,wrong2,wrong3
+What is a value in Python?,A piece of data,A variable name,A function,A keyword
+Which of the following is a valid variable name?,user_name,1user,user-name,user name
+What does the '=' symbol represent in Python?,Assignment,Comparison,Equality,Exponentiation
+Which operator performs floor division?,//,%,**,/
+What is the highest precedence operator?,Parentheses,Addition,Multiplication,Comparison
+What function converts a string to an integer?,int(),str(),float(),convert()
+What type does input() return?,String,Integer,Boolean,Float
+Which operator means 'not equal to'?,!=,==,<,>
+Which logical operator stops evaluating if the first part is false?,and,or,not,xor
+Which statement runs code only when a condition is true?,if,while,for,print
+What structure handles runtime errors?,try-except,if-else,for loop,while loop
+Which keyword immediately exits a loop?,break,continue,exit,stop
+What keyword skips the rest of the current loop iteration?,continue,break,pass,skip
+What function creates a sequence of numbers?,range(),seq(),list(),count()
+Which loop is used for definite iteration?,for,while,if,try
+Which function returns the number of items in a list or string?,len(),count(),size(),sum()
+What is a function that returns a value called?,Fruitful function,Void function,Loop function,Helper function
+What is the keyword used to return a value?,return,give,output,result
+Which string method removes whitespace on both sides?,strip(),trim(),clean(),cut()
+Which operator checks if a substring exists?,in,has,==,contains
+Which function joins list items into a string?,join(),split(),append(),combine()
+What is it called when two variables refer to the same list?,Aliasing,Copying,Looping,Shadowing
+What keyword defines a function?,def,func,function,define
+Which of these are immutable?,Strings,Lists,Dictionaries,Sets
+What is the output of len('hello')?,5,4,6,Error
+How do you add one element to a list?,append(),add(),insert(),push()
+How do you remove the first element in a list?,del list[0],pop(),remove(0),cut()
+Which method converts a string to uppercase?,upper(),capitalize(),upcase(),big()
+Which operator repeats a list?,*,+,repeat(),copy()
+What will 'a' in 'cat' return?,True,False,None,Error
+Which method finds a substring in a string?,find(),locate(),search(),indexof()
+What does 'break' do in a loop?,Stops the loop,Skips iteration,Restarts loop,Ends program
+What keyword is used in a function header to receive data?,parameter,argument,variable,input
+What keyword is used when calling a function to send data?,argument,parameter,return,def
+What happens when you modify a list inside a function?,Original changes,Copy changes only,Nothing changes,Error occurs
+Which function gives the largest item in a list?,max(),largest(),biggest(),top()
+What keyword creates a loop that runs while a condition is true?,while,loop,for,until
+What function converts any object into a string?,str(),print(),repr(),string()
