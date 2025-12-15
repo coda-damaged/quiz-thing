@@ -1,47 +1,47 @@
 question,correct,wrong1,wrong2,wrong3,explanation
-What is the correct way to create an empty dictionary?,{},dict(),[],(),Dictionaries are created using {} or dict(); [] creates a list and () creates a tuple.
-What will this print? d={'a':1,'b':2}; print(d['a']),1,2,Error,None,Accessing a key using brackets returns its value if the key exists.
-Which method safely retrieves a value without raising an error?,get(),values(),keys(),items(),dict.get() returns None or a default value if the key does not exist.
-What will this print? d={'x':5}; print('x' in d),True,False,Error,None,The 'in' operator checks keys in a dictionary.
-Which method returns all dictionary keys?,keys(),values(),items(),get(),keys() returns a view of all keys in the dictionary.
-What does d.pop('a') do?,Removes and returns value,Deletes dictionary,Clears dictionary,Returns key only,pop() removes the key and returns its associated value.
-Which structure is immutable?,Tuple,List,Dictionary,Set,Tuples cannot be modified after creation.
-How do you create a tuple with one item?,(5,),(5),[5],tuple(5),A single-item tuple requires a trailing comma.
-What will this print? t=(1,2,3); print(t[1]),2,1,3,Error,Tuples are indexed starting at 0.
-Which operation swaps values of x and y?,x,y=y,x,temp swap,swap(x,y),x=y;y=x,Tuple unpacking allows swapping in one line.
-What will this print? a,b=(3,5); print(a+b),8,35,Error,None,Tuple unpacking assigns values in order.
-Which method counts occurrences in a tuple?,count(),index(),len(),find(),count() returns how many times a value appears.
-Which function opens a file?,open(),read(),file(),load(),open() is used to access files.
-Which mode opens a file for writing?,w,r,a,x,w mode overwrites the file or creates it.
-What does readlines() return?,List of lines,String,Integer,Iterator,readlines() returns a list of strings.
-Which loop is commonly used to read a file line by line?,for loop,while loop,if statement,try-except,Files are iterable and commonly read with for loops.
-Which method writes multiple strings at once?,writelines(),write(),print(),append(),writelines() writes a list of strings.
-Which module deletes files?,os,sys,math,random,The os module handles file system operations.
-Which function generates a random integer?,randint(),random(),choice(),sample(),randint(a,b) returns an integer between a and b.
-What does random.choice() do?,Selects one item randomly,Returns index,Shuffles list,Returns range,choice() picks one random element.
-Which returns multiple random values?,sample(),choice(),randint(),random(),sample() returns a list of unique elements.
-Which constant is in math module?,pi,euler,golden,phi,math.pi represents π.
-Which function calculates square root?,sqrt(),pow(),square(),root(),math.sqrt() returns the square root.
-Which function calculates average?,mean(),median(),mode(),stdev(),mean() returns the arithmetic average.
-What does median() return?,Middle value,Most frequent value,Average,Spread,Median is the middle value of sorted data.
-Which function measures data spread?,stdev(),mean(),mode(),median(),Standard deviation measures spread.
-Which regex function finds first match?,search(),findall(),matchall(),scan(),re.search() returns first match object.
-Which regex finds all matches?,findall(),search(),match(),scan(),findall() returns a list of all matches.
-What does .* mean in regex?,Any characters,None digits,Only letters,Whitespace only,.* matches any number of any characters.
-What does non-greedy mean?,Shortest match,Longest match,Exact match,No match,Non-greedy stops as soon as possible.
-What do parentheses () do in regex?,Create groups,Match digits,Match spaces,Escape symbols,Parentheses group patterns.
-What will this print? print(tuple([1,2,3])),(1, 2, 3),[1,2,3],Error,None,tuple() converts iterable to a tuple.
-What happens if you modify a tuple?,Error occurs,Tuple updates silently,Tuple converts to list,Value ignored,Tuples are immutable.
-Which checks if key exists?,in,get(),keys(),values(),The in operator checks dictionary keys.
-What does dict.items() return?,Key-value pairs,Keys only,Values only,Strings,items() returns (key,value) tuples.
-What does clear() do?,Removes all items,Deletes dict,Returns items,Errors,clear() empties the dictionary.
-Which mode appends to file?,a,w,r,x,a adds content to end of file.
-What will this print? print(random.randint(1,1)),1,0,Random,Error,randint includes both endpoints.
-Which math function rounds up?,ceil(),floor(),round(),int(),ceil() rounds to next integer.
-Which stat returns most common?,mode(),mean(),median(),stdev(),Mode is the most frequent value.
-Which symbol means OR in regex?,|,&,||,or,The pipe symbol represents OR.
-Which matches digits in regex?,\d,\w,\s,\D,\d matches digits.
-What does re.findall() return?,List of strings,Single match,Boolean,Integer,findall returns all matches.
-What will this print? print((1,2)+(3,4)),(1, 2, 3, 4),(4,6),Error,None,Tuples concatenate using +.
-What does tuple slicing return?,New tuple,List,String,Error,Slicing returns a new tuple.
-Which deletes a folder?,os.rmdir(),os.remove(),del,clear(),os.rmdir removes directories.
+"What is the correct way to create an empty dictionary?",{},dict(),[],(),"Dictionaries are created using {} or dict(); [] creates a list and () creates a tuple."
+"What will this print? d={'a':1,'b':2}; print(d['a'])",1,2,Error,None,"Accessing a key using brackets returns its value if the key exists."
+"Which method safely retrieves a value without raising an error?",get(),values(),keys(),items(),"dict.get() returns None or a default value if the key does not exist."
+"What will this print? d={'x':5}; print('x' in d)",True,False,Error,None,"The 'in' operator checks keys in a dictionary."
+"Which method returns all dictionary keys?",keys(),values(),items(),get(),"keys() returns a view of all keys in the dictionary."
+"What does d.pop('a') do?","Removes and returns value","Deletes dictionary","Clears dictionary","Returns key only","pop() removes the key and returns its associated value."
+"Which structure is immutable?",Tuple,List,Dictionary,Set,"Tuples cannot be modified after creation."
+"How do you create a tuple with one item?","(5,)","(5)",[5],tuple(5),"A single-item tuple requires a trailing comma."
+"What will this print? t=(1,2,3); print(t[1])",2,1,3,Error,"Tuples are indexed starting at 0."
+"Which operation swaps values of x and y?","x,y=y,x","temp swap","swap(x,y)","x=y;y=x","Tuple unpacking allows swapping in one line."
+"What will this print? a,b=(3,5); print(a+b)",8,35,Error,None,"Tuple unpacking assigns values in order."
+"Which method counts occurrences in a tuple?",count(),index(),len(),find(),"count() returns how many times a value appears."
+"Which function opens a file?",open(),read(),file(),load(),"open() is used to access files."
+"Which mode opens a file for writing?",w,r,a,x,"w mode overwrites the file or creates it."
+"What does readlines() return?","List of lines",String,Integer,Iterator,"readlines() returns a list of strings."
+"Which loop is commonly used to read a file line by line?","for loop","while loop","if statement","try-except","Files are iterable and commonly read with for loops."
+"Which method writes multiple strings at once?",writelines(),write(),print(),append(),"writelines() writes a list of strings."
+"Which module deletes files?",os,sys,math,random,"The os module handles file system operations."
+"Which function generates a random integer?",randint(),random(),choice(),sample(),"randint(a,b) returns an integer between a and b."
+"What does random.choice() do?","Selects one item randomly","Returns index","Shuffles list","Returns range","choice() picks one random element."
+"Which returns multiple random values?",sample(),choice(),randint(),random(),"sample() returns a list of unique elements."
+"Which constant is in math module?",pi,euler,golden,phi,"math.pi represents π."
+"Which function calculates square root?",sqrt(),pow(),square(),root(),"math.sqrt() returns the square root."
+"Which function calculates average?",mean(),median(),mode(),stdev(),"mean() returns the arithmetic average."
+"What does median() return?","Middle value","Most frequent value",Average,Spread,"Median is the middle value of sorted data."
+"Which function measures data spread?",stdev(),mean(),mode(),median(),"Standard deviation measures spread."
+"Which regex function finds first match?",search(),findall(),matchall(),scan(),"re.search() returns first match object."
+"Which regex finds all matches?",findall(),search(),match(),scan(),"findall() returns a list of all matches."
+"What does .* mean in regex?","Any characters","None digits","Only letters","Whitespace only",".* matches any number of any characters."
+"What does non-greedy mean?","Shortest match","Longest match","Exact match","No match","Non-greedy stops as soon as possible."
+"What do parentheses () do in regex?","Create groups","Match digits","Match spaces","Escape symbols","Parentheses group patterns."
+"What will this print? print(tuple([1,2,3]))","(1, 2, 3)","[1,2,3]",Error,None,"tuple() converts iterable to a tuple."
+"What happens if you modify a tuple?","Error occurs","Tuple updates silently","Tuple converts to list","Value ignored","Tuples are immutable."
+"Which checks if key exists?",in,get(),keys(),values(),"The in operator checks dictionary keys."
+"What does dict.items() return?","Key-value pairs","Keys only","Values only",Strings,"items() returns (key,value) tuples."
+"What does clear() do?","Removes all items","Deletes dict","Returns items",Errors,"clear() empties the dictionary."
+"Which mode appends to file?",a,w,r,x,"a adds content to end of file."
+"What will this print? print(random.randint(1,1))",1,0,Random,Error,"randint includes both endpoints."
+"Which math function rounds up?",ceil(),floor(),round(),int(),"ceil() rounds to next integer."
+"Which stat returns most common?",mode(),mean(),median(),stdev(),"Mode is the most frequent value."
+"Which symbol means OR in regex?","|","&","||",or,"The pipe symbol represents OR."
+"Which matches digits in regex?","\d","\w","\s","\D","\d matches digits."
+"What does re.findall() return?","List of strings","Single match",Boolean,Integer,"findall returns all matches."
+"What will this print? print((1,2)+(3,4))","(1, 2, 3, 4)","(4,6)",Error,None,"Tuples concatenate using +."
+"What does tuple slicing return?","New tuple",List,String,Error,"Slicing returns a new tuple."
+"Which deletes a folder?",os.rmdir(),os.remove(),del,clear(),"os.rmdir removes directories."
