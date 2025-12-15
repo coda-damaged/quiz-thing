@@ -35,7 +35,7 @@ let score = 0;
 
 async function loadQuiz() {
   try {
-    const res = await fetch("final.csv");
+    const res = await fetch("final1.csv");
     const text = await res.text();
     const lines = text.trim().split("\n").slice(1);
 
@@ -109,3 +109,4 @@ loadQuiz();
 
 </body>
 </html>
+
