@@ -24,7 +24,7 @@ question,correct,wrong1,wrong2,wrong3,explanation
 "Which function calculates square root?",sqrt(),pow(),square(),root(),"math.sqrt() returns the square root."
 "Which function calculates average?",mean(),median(),mode(),stdev(),"mean() returns the arithmetic average."
 "What does median() return?","Middle value","Most frequent value",Average,Spread,"Median is the middle value of sorted data."
-"Which function measures data spread?",stdev(),mean(),mode(),median(),"Standard deviation measures spread."
+"Which function measures data spread?",stdev(),mean(),mode(),median(),"Standard deviation measures spread. <a href='https://www.debuggex.com/cheatsheet/regex/python'>also you're gonna need this</a>"
 "Which regex function finds first match?",search(),findall(),matchall(),scan(),"re.search() returns first match object."
 "Which regex finds all matches?",findall(),search(),match(),scan(),"findall() returns a list of all matches."
 "What does .* mean in regex?","Any characters","None digits","Only letters","Whitespace only",".* matches any number of any characters."
